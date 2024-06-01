@@ -1,13 +1,10 @@
 format = """
-[ ](#fd4e6d)\
+[](#fd4e6d)\
 $python\
 $username\
-[](fg:#fd4e6d)\
 $directory\
-[](fg:#fd4e6d)\
 $git_branch\
 $git_status\
-[](fg:#fd4e6d)\
 $c\
 $elixir\
 $elm\
@@ -18,12 +15,11 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](fg:#fd4e6d)\
 $docker_context\
-[](fg:#fd4e6d)\
-$time\
-[󱞶 ](fg:#fd4e6d)\
+[ ](fg:#fd4e6d)\
 """
+#[](fg:#fd4e6d)\
+#$time\
 command_timeout = 5000
 # Disable the blank line at the start of the prompt
 # add_newline = false
