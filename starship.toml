@@ -1,5 +1,5 @@
 format = """
-[](#fd4e6d)\
+[](#ffffff)\
 $python\
 $username\
 $directory\
@@ -16,7 +16,7 @@ $nodejs\
 $nim\
 $rust\
 $docker_context\
-[ ](fg:#fd4e6d)\
+[ ](fg:#E9D8A6)\
 """
 #[](fg:#fd4e6d)\
 #$time\
@@ -27,13 +27,13 @@ command_timeout = 5000
 # You can also replace your username with a neat symbol like  to save some space
 [username]
 show_always = true
-style_user = "fg:#fd4e6d"
-style_root = "fg:#FFC470 bg:#fd4e6d"
-format = '[ 󱢴 $user ]($style)'
+style_user = "fg:#005F73"
+style_root = "fg:#005F73 bg:#fd4e6d"
+format = '[ ]($style)'
 
 [directory]
-style = "fg:#fc8a80"
-format = "[  $path ]($style)"
+style = "fg:#94D2BD"
+format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
