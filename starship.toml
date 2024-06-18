@@ -29,8 +29,8 @@ command_timeout = 5000
 show_always = true
 style_user = "fg:#005F73"
 style_root = "fg:#005F73 bg:#fd4e6d"
-format = '[ ]($style)'
-
+format = '[]($style)'
+#
 [directory]
 style = "fg:#94D2BD"
 format = "[ $path ]($style)"
